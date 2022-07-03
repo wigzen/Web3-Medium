@@ -73,7 +73,7 @@ const MyBlogs = () => {
   }, [isAuthenticated, isInitialized, account]);
 
   const clickHandler = () => {
-    navigate("web3medium/newStory");
+    navigate("/newStory");
   };
 
 

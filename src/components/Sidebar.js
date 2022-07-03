@@ -19,17 +19,17 @@ const Sidebar = () => {
       <div className="siderContent">
         <img className="logo" src={logo}></img>
         <div className="menu">
-          <Link to="/web3medium/" className="link">
+          <Link to="/" className="link">
             <div className="menuItems">
               <HomeIcon />
             </div>
           </Link>
-          <Link to="web3medium/myBlogs" className="link">
+          <Link to="/myBlogs" className="link">
             <div className="menuItems">
               <BookIcon />
             </div>
           </Link>
-          <Link to="web3medium/newStory" className="link">
+          <Link to="/newStory" className="link">
             <div className="menuItems">
               <RateReviewIcon />
             </div>
